@@ -440,7 +440,7 @@ li {
 }
 
 .other_skills {
-  width: 30%;
+  width: auto;
 }
 
 .other_skills .outils {
@@ -775,4 +775,36 @@ textarea,
 
 .icons_footer img:hover {
   filter: brightness(70%);
+}
+
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 0.9rem; /* Slightly reduce the font size */
+  }
+
+  h2 {
+    font-size: 2rem; /* Adjust heading size */
+  }
+
+  .header_content {
+    padding: 15px; /* Reduce padding */
+    margin: 0; /* Remove margin */
+  }
+
+  .about_content,
+  .skills_container {
+    flex-direction: column; /* Stack elements vertically */
+    gap: 30px; /* Adjust gap */
+  }
+
+  .about_content .img_about img,
+  .icons_skills img {
+    width: 100%; /* Make images full width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .navbar ul {
+    flex-direction: column; /* Stack navbar items */
+  }
 }

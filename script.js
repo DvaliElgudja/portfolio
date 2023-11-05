@@ -51,9 +51,9 @@ window.addEventListener('scroll', function() {
   const scrollPosition = window.scrollY;
 
   // Si la position de défilement est supérieure ou égale à 100 pixels
-  if (scrollPosition >= 100) {
+  if (scrollPosition >= 100 && scrollPosition <= 500) {
     header.classList.add('visible');
-    navbar.style.display="block";
+    navbar.style.display = "block";
 
   } else {
     header.classList.remove('visible');
