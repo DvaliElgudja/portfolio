@@ -61,32 +61,7 @@ window.addEventListener('scroll', function() {
   }
 });
 
-//--------------fonction pour que les liens de la navbar prennent la class active au clic et au scroll
 
-function selectedLink() {
-  const scrollPosition = window.scrollY; // Obtenir la position de défilement actuelle de la fenêtre
-
-  // Calculer la hauteur de la barre de navigation pour déclencher la mise à jour de la classe
-  const navbarHeight = navbar.offsetHeight + 100;
-  const links = document.querySelectorAll('.links a');
-
-  links.forEach((link) => {
-    // Obtenir l'élément de section associé au lien en utilisant son attribut "href"
-    const section = document.querySelector(link.getAttribute('href'));
-
-    // Calcule la position supérieure de la section en prenant en compte la barre de navigation
-    const sectionTop = section.getBoundingClientRect().top + window.scrollY - navbarHeight;
-
-    // Calcule la position inférieure de la section
-    const sectionBottom = sectionTop + section.offsetHeight;
-
-    link.classList.toggle("active", scrollPosition >= sectionTop && scrollPosition < sectionBottom);
-  });
-}
-
-window.addEventListener('scroll', () => {
-  selectedLink();
-});
 
 
 
