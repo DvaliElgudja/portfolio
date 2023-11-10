@@ -2,7 +2,7 @@
 
 // -------- AUTO-TYPE --------- //
 
-const dynamicText = document.querySelector("h1 span");
+const dynamicText = document.querySelector("h2 span");
 const words = ["Développeur", "Codeur", "Agile"];
 let wordIndex = 0;
 let charIndex = 0;

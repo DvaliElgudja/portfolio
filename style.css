@@ -42,7 +42,7 @@ h3 {
 }
 
 p {
-  color: #999;
+  color: rgb(0, 0, 0);
   font-weight: 400;
   line-height: 1.6;
   font-size: 0.94rem;
@@ -177,7 +177,7 @@ li {
   transform: translate(-50%, -50%);
 }
 
-.intro h1 {
+.intro h2 {
   height: 91px;
 }
 
