@@ -39,30 +39,9 @@ const typeEffect = () => {
 typeEffect();
 
 
+
+
 //------------fonction pour afficher la navbar au scroll -----------//
-
-const header = document.querySelector('.header_main');
-const logo = document.querySelector('.logo');
-const navbar = document.querySelector('.navbar');
-const links = document.querySelectorAll('.links a');
-
-window.addEventListener('scroll', function() {
-  // Obtenir la position de défilement de la page
-  const scrollPosition = window.scrollY;
-
-  // Si la position de défilement est supérieure ou égale à 100 pixels
-  if (scrollPosition >= 100 && scrollPosition <= 500) {
-    header.classList.add('visible');
-    navbar.style.display = "block";
-
-  } else {
-    header.classList.remove('visible');
-    navbar.style.display="none";
-  }
-});
-
-
-//------------Modal -----------//
 
 // JavaScript to handle modal opening and closing
 function openModal(modalId) {
@@ -81,6 +60,6 @@ window.onclick = function(event) {
     event.target.style.display = 'none';
   }
 }
-
+;
 
 

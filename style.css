@@ -126,9 +126,9 @@ li {
   color: #292929;
 }
 
-.header_content .navbar {
+/* .header_content .navbar {
   display: none;
-}
+} */
 
 .navbar ul {
   display: flex;
