@@ -42,7 +42,7 @@ h3 {
 }
 
 p {
-  color: rgb(80, 45, 45);
+  color: rgb(0, 0, 0);
   font-weight: 400;
   line-height: 1.6;
   font-size: 0.94rem;
@@ -377,7 +377,7 @@ li {
 }
 
 .flip_box_back {
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   transform: rotateY(180deg);
   display: flex;
   justify-content: center;
@@ -492,6 +492,60 @@ li {
 .bloc-content-show .icon_content_show .fa-solid, .bloc-content-show .icon_content_show .fa-brands {
   margin: 0 5px
 }
+/* ___________________________________ MODAL ______________________________________ */
+
+/* Modal styles */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 11; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.0); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Button to open modal */
+.modal-open-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  padding: 4px 4px;
+  cursor: pointer;
+}
+
+.modal-open-button:hover {
+  background-color: #00000078;
+}
+
 
 /* /////////------------------- SECTION CV ----------------------------///// */
 
