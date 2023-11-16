@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "", sans-serif;
   font-size: 1rem;
   color: #444444;
   background-color: #fafafa;
@@ -331,10 +331,8 @@ li {
 
 .icons_skills {
   width: 70%;
-  border-right: 1px solid #292929;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   row-gap: 30px;
   column-gap: 20px;
   padding-right: 50px;
@@ -389,18 +387,6 @@ li {
   font-size: 1rem;
 }
 
-.other_skills {
-  width: auto;
-}
-
-.other_skills .outils {
-  border-bottom: 1px solid #292929;
-  padding-bottom: 20px;
-}
-
-.other_skills .personality {
-  padding-top: 20px;
-}
 
 /* /////////------------------- SECTION PORTFOLIO ----------------------------///// */
 
@@ -670,7 +656,7 @@ textarea,
   outline: none;
   font-weight: 400;
   resize: none;
-  font-family: "Poppins", sans-serif;
+  font-family: "", sans-serif;
 }
 
 .row1 .input_container input[type="text"] ~ .label,
@@ -761,7 +747,7 @@ textarea,
   line-height: 12px;
   transition: all 0.4s ease-in-out;
   cursor: pointer;
-  font-family: "Poppins", sans-serif;
+  font-family: "", sans-serif;
 }
 
 #contact .form .btn_form:hover {
