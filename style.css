@@ -30,14 +30,14 @@ body::-webkit-scrollbar-thumb {
 
 h2 {
   padding-bottom: 30px;
-  font-family: "Kaushan Script", cursive;
+  font-family: "", cursive;
   font-weight: 400;
   color: #292929;
   font-size: 2.4rem;
 }
 
 h3 {
-  font-family: "Kaushan Script", cursive;
+  font-family: "", cursive;
   color: #292929;
 }
 
@@ -110,7 +110,7 @@ li {
 }
 
 .logo a {
-  font-family: "Kaushan Script", cursive;
+  font-family: "", cursive;
   font-size: 2rem;
   font-weight: 600;
   opacity: 1;
