@@ -306,9 +306,9 @@ li {
 /* /////////------------------- SECTION SKILLS ----------------------------///// */
 
 #skills {
-  background: url("assets/images/background_black.png") center/cover no-repeat;
+  background: url("assets/images/bg_header.webp") center/cover no-repeat;
   background-attachment: fixed;
-  filter: brightness(1.5);
+  filter: brightness(1);
 }
 
 #skills h2 {
@@ -538,9 +538,9 @@ li {
 .section_cv {
   margin: 150px 0 20px 0;
   padding: 80px;
-  background: url("assets/images/background_black.png") center/cover;
+  background: url("assets/images/bg_header.webp") center/cover;
   background-attachment: fixed;
-  filter: brightness(1.5);
+  filter: brightness(70%);
   display: flex;
   flex-direction: column;
   justify-content: center;
